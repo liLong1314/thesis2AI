@@ -127,8 +127,8 @@ export async function GET(request: Request) {
         </style>
       </head>
       <body>
-        <p>下面是这个路由设置VIP的代码，你们能破解吗？</p>
-        <a href="https://github.com/14790897/paper-ai/blob/main/app/api/lemon/callback/route.ts">route.ts</a>
+        <p></p>
+        <a href="">route.ts</a>
       </body>
     </html>
   `;

@@ -11,7 +11,7 @@ export default defineConfig({
       { text: "Home", link: "/" },
       {
         text: "GitHub",
-        link: "https://github.com/14790897/paper-ai",
+        link: "hhttps://github.com/liLong1314/thesis2AI",
       },
     ],
 

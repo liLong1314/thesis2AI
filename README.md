@@ -1,10 +1,10 @@
-[English Documentation](./README_en.md)
 
-<a href="https://paperai.life">
+
+<a href="https://没部署">
 <div align="center">
     <img src="./public/android-chrome-192x192.png" alt="the fastest way to create a paper with real references">
 </div>
-<h1 align="center">paper-ai</h1>
+<h1 align="center">ThesisAi</h1>
 </a>
 
 <p align="center">
@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-<a href='https://docs.paperai.life/' style='font-size: 20px;'><strong>文档网站(教程比较详细,推荐在这里观看)</strong></a>
+
 </p>
 
 <p align="center">
@@ -28,7 +28,7 @@
 ### 利用人工智能撰写论文
 
 - **人工智能书写功能**： 点击 "AI 写作 "进行正常对话互动。人工智能将根据您的输入提供写作建议或回答问题。
-- **寻找文献功能**： 点击 "寻找文献"，根据输入的关键词在 Semantic Scholar 或 arxiv 或 PubMed 中搜索论文。系统将把信息整合到您的论文中。
+- **寻找文献功能**： 点击 "寻找文献"，根据输入的关键词在 Semantic Scholar（推荐） 或 arxiv（不能用） 或 PubMed 中搜索论文。系统将把信息整合到您的论文中。
 
 ### 编辑和修改
 
@@ -37,7 +37,7 @@
 
 ## 演示
 
-您可以在 [paperai.life](https://paperai.life) 查看完整的工作演示。
+没写
 
 ## 部署到 Vercel
 
@@ -49,20 +49,7 @@
 
 ## 镜像运行
 
-1. 拉取镜像
-
-```sh
-docker pull 14790897/paperai:latest
-```
-
-2. 运行镜像
-
-```sh
-docker run -d -p 3000:3000 \
-  -e NEXT_PUBLIC_AI_URL=自定义AI模型地址\
-  -e NEXT_PUBLIC_OPENAI_API_KEY=自定义API KEY \
-  14790897/paperai:latest
-```
+仅有dockerfile
 
 ## 环境变量说明
 
@@ -75,7 +62,7 @@ docker run -d -p 3000:3000 \
 
 ```bash
 # 克隆版本库
-git clone https://github.com/14790897/paper-ai.git
+git clone git@github.com:liLong1314/thesis2AI.git
 
 # 进入项目目录
 cd paper-ai
@@ -84,15 +71,6 @@ cd paper-ai
 npm install
 
 # 运行项目
-npm run dev
+npm run start
 
-```
 
-## 参考文档
-
-1. semantic scholar api: https://api.semanticscholar.org/api-docs/#tag/Paper-Data/operation/get_graph_paper_relevance_search
-2. pubmed api: https://www.ncbi.nlm.nih.gov/books/NBK25500/
-
-## 许可证
-
-MIT

@@ -70,7 +70,7 @@ export default async function Index({ params: { lng } }: IndexProps) {
             className="font-bold text-blue-600 hover:underline hover:text-blue-800"
             rel="noreferrer"
           >
-            {t("give me ")}
+            {t("give me a star ")}
           </a>
           <a
             href="https://docs.paperai.life/"

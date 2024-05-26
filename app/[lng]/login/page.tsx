@@ -162,12 +162,12 @@ export default async function Login({
           {" "}
           {/* 添加flex容器来水平排列子元素 */}
           <a
-            href="https://github.com/14790897/paper-ai"
+            href="https://github.com/liLong1314/thesis2AI"
             target="_blank"
             className="font-bold text-blue-600 hover:underline hover:text-blue-800"
             rel="noreferrer"
           >
-            {t("give me")}
+            {t("give me a star a star")}
           </a>
           <FooterBase t={t} lng={lng} />
         </div>
